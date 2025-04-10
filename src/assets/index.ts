@@ -25,10 +25,11 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// import meta from "./company/meta.png";
+// import shopify from "./company/shopify.png";
+// import starbucks from "./company/starbucks.png";
+// import tesla from "./company/tesla.png";
+import EmergeInfosys from "./company/emergelogo.png";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -43,7 +44,7 @@ import user3 from "./testimonials/user3.jpg";
 
 import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
-import twitter from "./socials/twitter.svg";
+import Xsocialsite from "./socials/Xsocialsite.jpg";
 import youtube from "./socials/youtube.svg";
 
 export {
@@ -69,10 +70,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  EmergeInfosys,
   project1,
   project2,
   project3,
@@ -85,5 +83,5 @@ export {
   github,
   youtube,
   linkedin,
-  twitter,
+  Xsocialsite,
 };

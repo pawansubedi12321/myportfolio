@@ -58,32 +58,32 @@ const FeedbackCard = ({
 );
 
 // Feedbacks
-export const Feedbacks = () => {
-  return (
-    <SectionWrapper>
-      <div className="mt-12 bg-black-100 rounded-[20px]">
-        <div
-          className={cn(
-            styles.padding,
-            "bg-tertiary rounded-2xl min-h-[300px]"
-          )}
-        >
-          {/* Title */}
-          <motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>What others say</p>
-            <h2 className={styles.sectionHeadText}>Testimonials.</h2>
-          </motion.div>
-        </div>
+// export const Feedbacks = () => {
+//   return (
+//     <SectionWrapper>
+//       <div className="mt-12 bg-black-100 rounded-[20px]">
+//         <div
+//           className={cn(
+//             styles.padding,
+//             "bg-tertiary rounded-2xl min-h-[300px]"
+//           )}
+//         >
+//           {/* Title */}
+//           <motion.div variants={textVariant()}>
+//             <p className={styles.sectionSubText}>What others say</p>
+//             <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+//           </motion.div>
+//         </div>
 
-        {/* Feedback Card */}
-        <div
-          className={cn(styles.paddingX, "-mt-20 pb-14 flex flex-wrap gap-7")}
-        >
-          {TESTIMONIALS.map((testimonial, i) => (
-            <FeedbackCard key={testimonial.name} index={i} {...testimonial} />
-          ))}
-        </div>
-      </div>
-    </SectionWrapper>
-  );
-};
+//         {/* Feedback Card */}
+//         <div
+//           className={cn(styles.paddingX, "-mt-20 pb-14 flex flex-wrap gap-7")}
+//         >
+//           {TESTIMONIALS.map((testimonial, i) => (
+//             <FeedbackCard key={testimonial.name} index={i} {...testimonial} />
+//           ))}
+//         </div>
+//       </div>
+//     </SectionWrapper>
+//   );
+// };

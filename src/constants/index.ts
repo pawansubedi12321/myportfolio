@@ -18,10 +18,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  EmergeInfosys,
   threejs,
   project1,
   project2,
@@ -34,7 +31,7 @@ import {
   user3,
   youtube,
   linkedin,
-  twitter,
+  Xsocialsite,
   github,
 } from "../assets";
 
@@ -55,11 +52,7 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+
 ] as const;
 
 // Services
@@ -69,17 +62,17 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Figma Basic",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ] as const;
 
 // Technologies
@@ -113,18 +106,6 @@ export const TECHNOLOGIES = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -132,64 +113,58 @@ export const TECHNOLOGIES = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Intern",
+    company_name: "Emerge Infosys",
+    icon: EmergeInfosys,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my internship at Emerge Infosys, I gained hands-on experience in web development.",
+      "I learned the fundamentals of HTML and CSS, which laid the foundation for creating responsive and user friendly web interfaces.",
+      "Additionally, I worked with popular frameworks like Tailwind CSS and Bootstrap to design modern and visually appealing layouts.",
+      " I became proficient in working with various HTTP methods, including GET, POST, PUT,PATCH, and DELETE, which enhanced my ability to interact with APIs effectively."
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Emerge Infosys",
+    icon:EmergeInfosys,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "As part of my professional work at Emerge Infosys, I contributed to the development of the XittooSewa platform.",
+      "This project includes a user-friendly website for service providers and customers, along with a robust admin panel for managing operations.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: EmergeInfosys,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in developing web applications using the Django framework, with a strong understanding of its core features and functionalities.",
+      "Experienced in implementing authentication and authorization mechanisms, ensuring secure user access and data protection.",
+      "Proficient in using the Django REST Framework to create robust and scalable APIs, enabling seamless communication between front-end and back-end systems.",
     ],
   },
 ] as const;
@@ -225,78 +200,12 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Xittoo Sewa",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Xittoo Sewa is an on-demand service platform that connects users with skilled technicians for fast, reliable, and location-based solutions to everyday problems.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -304,57 +213,80 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwind and css",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    image: project1,
+    // source_code_link: "https://github.com/sanidhyy/disney-clone",
+    live_site_link: "https://xittoosewa.com",
   },
   {
-    name: "Cryptoverse",
+    name: "Dice Game",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "This is a web based game .In the game if selected number is equal to dice number you will ge the selected number point . if you get wrong guess then 2 point will be deducted.Always select 6 for maximum points.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "rapidapi",
+      //   color: "green-text-gradient",
+      // },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    image: project2,
+    source_code_link: "https://github.com/pawansubedi12321/dicegame",
+    live_site_link: "https://pawansubedi12321.github.io/dicegame/",
   },
   {
-    name: "Travel Advisor",
+    name: "Drink Water Goal",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "This is web based application .In this application the main goal is to drink the 2 liter of water in a day.After drinking the 250ml you can select the glass.The glass will appear blue after you select",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+      // {
+      //   name: "syncfusion",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    image: project3,
+    source_code_link: "https://github.com/pawansubedi12321/drinkwatergoal",
+    live_site_link: "https://pawansubedi12321.github.io/drinkwatergoal/",
+  },
+  {
+    name: "Little Lemon Restaurant",
+    description:
+      "I have created an api using   django  where i have implemented the authentication and authorization.In this project there is a user where he order the food and the order food will be delivered by an delivery boy.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django Rest Framework",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project4,
+    source_code_link: "https://github.com/pawansubedi12321/django-rest-framework-",
+    live_site_link: "",
   },
 ] as const;
 
@@ -362,21 +294,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "",
   },
   {
     name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    icon:Xsocialsite,
+    link: "https://x.com/pawansubed30964?t=yaxbnD7dEGPWPePmTXbETw&s=09",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/pawansubedi12321",
   },
 ] as const;
