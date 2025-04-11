@@ -1,20 +1,7 @@
 {
-  "name": "3d-portfolio",
+  "name": "myportfolio",
   "version": "1.1.4",
   "private": true,
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
-  "keywords": [
-    "reactjs",
-    "react",
-    "porfolio-app",
-    "three-js",
-    "modern-ui/ux",
-    "js",
-    "javascript",
-    "html",
-    "css",
-    "tailwindcss"
-  ],
   "license": "MIT",
   "type": "module",
   "scripts": {
