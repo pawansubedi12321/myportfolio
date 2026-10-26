@@ -243,7 +243,7 @@ export const PROJECTS = [
     ],
     image: project7,
     source_code_link: "https://github.com/pawansubedi12321/multistepformdesign",
-    live_site_link: "https://formdesign-1rsxk8kep-pawansubedi12321s-projects.vercel.app/",
+    live_site_link: "https://formdesign-tau.vercel.app/",
   },
   {
     name: "Dice Game",
