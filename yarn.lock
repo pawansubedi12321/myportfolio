@@ -181,6 +181,7 @@
   integrity sha512-DGSlP9sPvyFba3to2A50kDtZ+pXVp/0rhmqs2LmbMS3I5J8FSOgLwzY2Xb4qfKlOVHh29EAutLYwe5yuEZmEFg==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "@emotion/is-prop-valid@*":
   version "0.8.8"
@@ -195,6 +196,8 @@
   integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
 >>>>>>> origin/main
+=======
+>>>>>>> origin/updatedportfolio
 "@esbuild/win32-x64@0.25.0":
   version "0.25.0"
   resolved "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.0.tgz"
