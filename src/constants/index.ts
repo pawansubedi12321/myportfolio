@@ -25,6 +25,8 @@ import {
   project3,
   project4,
   project7,
+  project8,
+  project9, 
   project5,
   project6,
   // user1,
@@ -34,6 +36,14 @@ import {
   linkedin,
   Xsocialsite,
   github,
+  advance_css_and_responsive_design,
+  advance_css_and_responsive_web_design,
+  introduction_to_git_and_github,
+  aws_developer,
+  build_modern_computer_from_nand,
+  Generative_ai,
+  generative_ai_introduction_and_application,
+  nestjs,
 } from "../assets";
 
 // Navbar Links
@@ -70,10 +80,49 @@ export const SERVICES = [
     title: "Backend Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  
+  {
+    title: "Introduction to Git and GitHub",
+    link: 'https://www.coursera.org/account/accomplishments/certificate/0P5DX62CICZL',
+    icon: introduction_to_git_and_github,
+  },
+  {
+    title: "Advanced CSS & Responsive Web Design",
+    link: 'https://www.coursera.org/account/accomplishments/certificate/947I4PP2I096',
+    icon: advance_css_and_responsive_web_design,
+  },
+  {
+    title: "Advanced CSS Techniques & Responsive Design",
+    link: 'https://www.coursera.org/account/accomplishments/verify/ULIPTQ5JEYA6',
+    icon: advance_css_and_responsive_design,
+  },
+  {
+    title: "AWS Developer Essentials: Identity, Compute and Storage",
+    icon: aws_developer,
+     link: 'https://www.coursera.org/account/accomplishments/verify/ETVOI3YMSNRO',
+  },{
+    title: "Generative AI Essentials: From Fundamentals to Real-World Applications",
+    icon: Generative_ai,
+    link: 'https://www.coursera.org/account/accomplishments/verify/IN3C7PYS0UX8',
+  }
+  ,{
+    title: "TypeScript ",
+    icon: typescript,
+    link: 'https://www.coursera.org/account/accomplishments/verify/X8MKBSB2HNHN',
+  },
+  {
+    title: "NestJS",
+    icon: nestjs,
+    link: 'https://www.coursera.org/account/accomplishments/verify/QWF3DPNJ2CQ5',
+  },{
+    title: "Build a Modern Computer from First Principles:",
+    icon: build_modern_computer_from_nand,
+    link: 'https://www.coursera.org/account/accomplishments/verify/YABZOOTERT2D',
+  },{
+    title: "Generative AI: Introduction and Applications",
+    icon: generative_ai_introduction_and_application,
+    link: 'https://www.coursera.org/account/accomplishments/verify/IN3C7PYS0UX8',
+  }
 ] as const;
 
 // Technologies
@@ -143,6 +192,7 @@ export const EXPERIENCES = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
+  
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -224,6 +274,28 @@ export const PROJECTS = [
     live_site_link: "https://xittoosewa.com",
   },
   {
+    name: "Weather Application",
+    description: "A responsive weather forecasting and data visualization web application built to demonstrate my frontend development skills.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: project9,
+    source_code_link: "https://github.com/pawansubedi12321/WeatherApplication.git",
+    live_site_link: "https://frontendweatherapp-liart.vercel.app/",
+  },
+  {
     name: "Form Design",
     description:"The project demonstrates modern frontend development practices, responsive UI design, reusable structure , and step-by-step navigation.",
     tags: [
@@ -247,7 +319,7 @@ export const PROJECTS = [
   },
   {
     name: "hotelbookingconfirmation",
-    description:"The project demonstrates modern frontend development practices, responsive UI design, reusable structure.i am working on this project expected end 30-10-2026",
+    description:"The project demonstrates modern frontend development practices, responsive UI design, reusable structure .",
     tags: [
       {
         name: "react",
@@ -263,7 +335,7 @@ export const PROJECTS = [
       },
       
     ],
-    image: project7,
+    image: project8,
     source_code_link: "https://github.com/pawansubedi12321/Hotel_Booking_confirmation_page_design.git",
     live_site_link: "https://hotelbookingconfirmation.vercel.app/",
   },
